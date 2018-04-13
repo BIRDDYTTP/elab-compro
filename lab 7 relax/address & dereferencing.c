@@ -1,0 +1,10 @@
+&i = FF04
+&j = FF00
+pj = FF00
+*pj = 37
+i = 22
+pi = FF00
+*pi = 37
+pi+2 = FF08
+*pi+2 = 39
+*pi+*pj = 74
