@@ -2,8 +2,10 @@
 void main(){
     char item[25] ="Computer Programming";
     char *a1=item, *a2;
+    printf("%x\n", a1);
+    item[17] = NULL;
     printf("%s\n",a1);
-    a2 = &(*(a1+5));
+    a2 = &(*(a1+15));
     printf("%s\n",a2);
     a2 =&(*(a1+8));
     printf("%s\n",a2);
